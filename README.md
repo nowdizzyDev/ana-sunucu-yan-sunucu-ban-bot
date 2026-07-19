@@ -1,6 +1,6 @@
 # Ban Sync Bot
 
-Ana sunucu / yan sunucu ban senkronizasyon botu.
+Ana sunucu / yan sunucu ban botu.
 
 ## Mantık
 
@@ -25,7 +25,7 @@ npm install
   "clientId": "BOT_CLIENT_ID_BURAYA",
   "anaid": "ANA_SUNUCU_ID_BURAYA",
   "yanid": "YAN_SUNUCU_ID_BURAYA",
-  "botdurum": "Ban Sync 🔨"
+  "botdurum": "Ana Sunucu Yan Sunucu Ban"
 }
 ```
 
@@ -42,10 +42,4 @@ Discord Developer Portal'dan bota şu izinleri ver:
 
 ```bash
 node index.js
-```
-
-PM2 ile:
-
-```bash
-pm2 start index.js --name ban-sync-bot
 ```
