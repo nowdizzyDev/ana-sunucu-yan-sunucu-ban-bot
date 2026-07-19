@@ -1,0 +1,12 @@
+{
+  "name": "banbot",
+  "version": "1.0.0",
+  "description": "Ana sunucu / yan sunucu ban botu",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0"
+  }
+}
